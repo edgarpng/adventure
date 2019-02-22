@@ -1,2 +1,4 @@
 #!/usr/bin/env ruby
-puts 'Hello adventure world!'
+require_relative 'engine/repl'
+game = Adventure::Engine::Repl.new
+game.start
