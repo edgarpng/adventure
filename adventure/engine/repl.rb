@@ -1,11 +1,9 @@
 module Adventure
   module Engine
-    class Repl
+    module Repl
       private
       COMMAND_PREFIX = '> '
-      QUIT_COMMANDS = [':q', 'quit', 'bugger off, mate!']
-      #TODO move to resource file
-      GREETING = 'Hello! Welcome to the adventure! Watcha gonna do now?'
+      QUIT_COMMANDS = [':q', 'quit', 'exit', 'bugger off, mate!']
 
       def read
         print COMMAND_PREFIX
@@ -26,7 +24,7 @@ module Adventure
 
       public
       def start
-        puts GREETING
+        greet
         loop do
           do_print eval read
           break if done?

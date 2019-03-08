@@ -1,0 +1,9 @@
+Prologue: You wake up feeling deep pain in the back of your head. You can't remember the last couple hours, but somehow are lying on the couch of what seems to be a very fancy living room. As you get up, you can see there's a small object on the table ahead of you.
+  Grab the object -> #1
+#1: It seems to be a piece of paper. There is something written on it.
+  Read it -> #2
+#2: It says "Look behind you"
+  Run away -> Finale
+  Look behind -> Bad_finale
+Finale: You run away, open the apartment door and get the hell outta there. You promise never to do drugs again. THE END.
+Bad_finale: It hurts. Really bad. You don't know what happened. Your vision starts to blur and you fall. As you hit the ground, you wonder who exactly was watching you this whole time. Or what. Not that it really matters. Not anymore...
